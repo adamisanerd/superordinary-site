@@ -20,7 +20,6 @@ Copy all files to any static web server, S3-compatible static host, Nginx, Apach
 
 - Replace the placeholder email `hello@superordinarymusic.com` with a real contact address.
 - Add real streaming links once releases are available. The site intentionally doesn't invent links.
-- Review the EP tracklist: this uses the **original three-track EP**, with the newer songs treated as works in progress.
 - Replace or adjust artwork and portraits in `assets/` as needed. The artist image is AI-generated, not a verified exact likeness.
 - Confirm you have the rights to publish all imagery.
 
