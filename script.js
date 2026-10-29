@@ -1,6 +1,6 @@
 /* PLAY COUNTER: after signing up at goatcounter.com, put your account code between the quotes
    (e.g. if your dashboard is https://superordinary.goatcounter.com, use 'superordinary'). Leave empty to disable. */
-const GOATCOUNTER_CODE='';
+const GOATCOUNTER_CODE='adamrunion';
 if(GOATCOUNTER_CODE){const g=document.createElement('script');g.async=true;g.src='https://gc.zgo.at/count.js';g.dataset.goatcounter='https://'+GOATCOUNTER_CODE+'.goatcounter.com/count';document.head.appendChild(g)}
 const countPlay=(slug,name)=>{try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:'play/'+slug,title:'Play: '+name,event:true})}catch(e){}};
 const menu=document.querySelector('.menu');const links=document.querySelector('.nav-links');menu.addEventListener('click',()=>{const open=links.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.textContent=open?'close −':'menu +'});links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.textContent='menu +'}));document.getElementById('year').textContent=new Date().getFullYear();
