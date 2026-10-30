@@ -108,3 +108,4 @@
   .merch-grid .product{border-left:1px solid #c9bfae!important}
 }
 @media(prefers-reduced-motion:reduce){.cart-panel,.add{transition:none}}
+.merch-flat{padding-top:70px}.merch-label{font:12px var(--mono);letter-spacing:2px;color:var(--rust);font-weight:400;margin:0 0 14px;padding-top:4px}.merch-label:not(:first-child){margin-top:64px}@media(max-width:650px){.merch-flat{padding-top:50px}.merch-label:not(:first-child){margin-top:44px}}
